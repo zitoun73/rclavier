@@ -18,3 +18,15 @@ td{
 thead
 {border: 4px solid red;
 }
+h1
+{text-align: center;
+margin: 0px;
+border :3px black solid;
+border-radius :5px/10px;
+}
+h1
+{
+    border: 2px #72543b solid;
+    display:table;
+    margin:auto;/* centre l'element , pas de marge = alignement dans le sens de lecture, généralement gauche */
+}
