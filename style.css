@@ -4,3 +4,16 @@ text-decoration: underline;
 td{
     border: 1px solid black;
   }/*premier tableau*/
+  table
+  {
+
+      border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+
+  }
+
+  td
+
+  {
+
+      border: 1px solid black;
+    }
