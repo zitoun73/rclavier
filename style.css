@@ -29,6 +29,22 @@ h1
 }
 h1
 {
-box-shadow: 6px 6px 0px black;
-
+box-shadow: 6px 6px 0px black;/*mettre de l ombre encadrement du titre*/
+@media screen and (min-width: 720px){
+color: #FF0000;
+border: #000 1px dashed;
 }
+@media screen and (min-width: 720px){
+color: #FF0000;
+border: #000 1px dashed;
+}
+
+@media screen and (min -width: 480px) and (max-width: 720px){
+color:  #333;
+border: #CCC 1px solid;
+}
+
+@media screen and (max-width: 480px){
+color:  #000;
+border:none;
+}/*@media:ajout responsive,r(evoir le titre,ne fonctionne pas)*/
